@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio de PO Box para importaciones de McAllen a San Pedro Garza García, Monterrey. Recepción, consolidación y envío de paquetes.">
+    <title>VOXOY - PO Box McAllen a San Pedro Garza García</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader__container">
+            <div class="loader__logo">
+                <img src="img/logo.jpg" alt="VOXOY Logo">
+            </div>
+            <div class="loader__images">
+                <div class="loader__image active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/voxy.jpeg');"></div>
+                <div class="loader__image" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/vista.jpeg');"></div>
+            </div>
+            <div class="loader__text">
+                <span class="loader__word">
+                    <span class="loader__letter">C</span>
+                    <span class="loader__letter">a</span>
+                    <span class="loader__letter">r</span>
+                    <span class="loader__letter">g</span>
+                    <span class="loader__letter">a</span>
+                    <span class="loader__letter">n</span>
+                    <span class="loader__letter">d</span>
+                    <span class="loader__letter">o</span>
+                    <span class="loader__letter">.</span>
+                    <span class="loader__letter">.</span>
+                    <span class="loader__letter">.</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header/Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="#nosotros">
+                    <img src="img/logo.jpg" alt="VOXOY Logo">
+                </a>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#nosotros" class="nav__link active">Nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#servicios" class="nav__link">Servicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#proceso" class="nav__link">Cómo funciona</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#ubicaciones" class="nav__link">Ubicaciones</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#faq" class="nav__link">FAQ</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#redes" class="nav__link">Redes sociales</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section / Nosotros -->
+    <section class="hero" id="nosotros">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Tu PO Box en McAllen<br>
+                    <span class="hero__title-accent">Directo a San Pedro Garza García</span>
+                </h1>
+                <p class="hero__description">
+                    Servicio profesional de recepción, consolidación y envío de paquetes desde Estados Unidos 
+                    hasta Monterrey. Confiable, rápido y seguro.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#contacto" class="btn btn--primary">Solicitar información</a>
+                    <a href="#proceso" class="btn btn--secondary">Ver proceso</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__card">
+                    <div class="hero__card-icon">📦</div>
+                    <h3>McAllen, TX</h3>
+                    <div class="hero__arrow">→</div>
+                    <h3>San Pedro Garza García, NL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section__title">¿Por qué elegir VOXOY?</h2>
+            <div class="features__grid">
+                <div class="feature__card">
+                    <div class="feature__icon">🚚</div>
+                    <h3>Envíos Semanales</h3>
+                    <p>Servicio regular de transporte cada semana desde McAllen a Monterrey</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">🔒</div>
+                    <h3>Seguro y Confiable</h3>
+                    <p>Tus paquetes protegidos con seguimiento en tiempo real</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">💰</div>
+                    <h3>Precios Competitivos</h3>
+                    <p>Tarifas justas sin costos ocultos ni sorpresas</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">⚡</div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Proceso optimizado para entrega en San Pedro Garza García</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section__title">Nuestros Servicios</h2>
+            <div class="services__grid">
+                <div class="service__card">
+                    <div class="service__number">01</div>
+                    <h3>Recepción de Paquetes</h3>
+                    <p>
+                        Proporcionamos una dirección física en McAllen, Texas donde puedes recibir tus compras 
+                        de cualquier sitio web o tienda en Estados Unidos.
+                    </p>
+                    <ul class="service__list">
+                        <li>✓ Dirección física verificada</li>
+                        <li>✓ Almacenamiento temporal</li>
+                        <li>✓ Notificaciones por email</li>
+                    </ul>
+                </div>
+                <div class="service__card">
+                    <div class="service__number">02</div>
+                    <h3>Consolidación</h3>
+                    <p>
+                        Agrupamos tus paquetes de diferentes proveedores para reducir costos de envío 
+                        y optimizar tu inversión.
+                    </p>
+                    <ul class="service__list">
+                        <li>✓ Empaque profesional</li>
+                        <li>✓ Protección de productos</li>
+                        <li>✓ Inspección de contenido</li>
+                    </ul>
+                </div>
+                <div class="service__card">
+                    <div class="service__number">03</div>
+                    <h3>Envío a Domicilio</h3>
+                    <p>
+                        Entregamos tus paquetes de manera segura y oportuna hasta tu ubicación 
+                        en San Pedro Garza García, Monterrey.
+                    </p>
+                    <ul class="service__list">
+                        <li>✓ Entrega puerta a puerta</li>
+                        <li>✓ Seguimiento en tiempo real</li>
+                        <li>✓ Soporte personalizado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="process" id="proceso">
+        <div class="container">
+            <h2 class="section__title">Cómo Funciona</h2>
+            <div class="process__timeline">
+                <div class="timeline__item">
+                    <div class="timeline__number">1</div>
+                    <div class="timeline__content">
+                        <h3>Obtén tu dirección en McAllen</h3>
+                        <p>Regístrate con nosotros y recibe tu dirección física en Estados Unidos. Úsala como dirección de envío en todas tus compras.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__number">2</div>
+                    <div class="timeline__content">
+                        <h3>Envía tus compras a McAllen</h3>
+                        <p>Compras desde cualquier sitio web (Amazon, eBay, tiendas oficiales) y envía a nuestra dirección en McAllen, Texas.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__number">3</div>
+                    <div class="timeline__content">
+                        <h3>Consolidamos tus paquetes</h3>
+                        <p>Recibimos, revisamos y agrupamos todos tus paquetes para preparar el envío a Monterrey de manera eficiente.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__number">4</div>
+                    <div class="timeline__content">
+                        <h3>Recibe en San Pedro Garza García</h3>
+                        <p>Entregamos tus paquetes de forma segura en tu domicilio en San Pedro Garza García con servicio puerta a puerta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA - Adquiere tu suite -->
+    <section class="cta-suite">
+        <div class="container">
+            <div class="cta-suite__content">
+                <h2>¿Listo para empezar?</h2>
+                <p>Adquiere tu suite y obtén tu dirección en McAllen</p>
+                <a href="registro.html" class="btn btn--primary btn--large">Adquiere tu suite</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicaciones -->
+    <section class="locations" id="ubicaciones">
+        <div class="container">
+            <h2 class="section__title">Nuestras Ubicaciones</h2>
+            <div class="locations__grid">
+                <div class="location__card">
+                    <div class="location__badge origin">Origen</div>
+                    <h3>McAllen, Texas</h3>
+                    <div class="location__icon">📍</div>
+                    <p class="location__address">
+                        <strong>Dirección del PO Box:</strong><br>
+                        [Tu dirección de PO Box aquí]<br>
+                        McAllen, TX [Código Postal]<br>
+                        Estados Unidos
+                    </p>
+                    <div class="location__info">
+                        <p>✓ Horario de recepción: Lunes a Viernes 9:00 AM - 6:00 PM</p>
+                        <p>✓ Personal bilingüe</p>
+                        <p>✓ Almacenamiento seguro</p>
+                    </div>
+                </div>
+                <div class="location__card">
+                    <div class="location__badge destination">Destino</div>
+                    <h3>San Pedro Garza García, Nuevo León</h3>
+                    <div class="location__icon">🏠</div>
+                    <p class="location__address">
+                        <strong>Área de Cobertura:</strong><br>
+                        San Pedro Garza García y zonas aledañas<br>
+                        Monterrey, N.L., México
+                    </p>
+                    <div class="location__info">
+                        <p>✓ Entrega a domicilio</p>
+                        <p>✓ Horario flexible</p>
+                        <p>✓ Servicio personalizado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section__title">Preguntas Frecuentes</h2>
+            <div class="faq__container">
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Cómo me registró para el servicio?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Contáctanos a través del formulario o por WhatsApp para iniciar tu registro. Te proporcionaremos tu dirección en McAllen y las tarifas correspondientes.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Cuánto tiempo duran las envíos desde McAllen a San Pedro?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>El tiempo promedio es de 3 a 5 días hábiles desde que consolidamos tus paquetes hasta la entrega en San Pedro Garza García.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Qué productos están permitidos?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Aceptamos la mayoría de productos permitidos en importación. No aceptamos productos ilegales, armas, combustibles o sustancias peligrosas. Para más detalles, consulta con nosotros.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Cómo se calculan los costos?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Los costos dependen del peso y volumen de tus paquetes consolidados. Consulta nuestras tarifas actualizadas o solicita una cotización personalizada.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Ofrecen seguimiento de paquetes?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Sí, proporcionamos números de rastreo y mantienes comunicación constante sobre el estatus de tus envíos.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>¿Hay algún peso mínimo o máximo?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>No hay mínimo de peso, puedes enviar desde un pequeño paquete. Para el máximo, consulta con nosotros ya que dependemos del tipo de transporte utilizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section__title">Contáctanos</h2>
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <h3>¿Listo para comenzar?</h3>
+                    <p>Estamos aquí para ayudarte con todas tus importaciones de Estados Unidos a Monterrey.</p>
+                    <div class="contact__methods">
+                        <div class="contact__method">
+                            <div class="contact__icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@voxoy.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <div class="contact__icon">📱</div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+52 81 0000 0000</p>
+                            </div>
+                        </div>
+                        <div class="contact__method">
+                            <div class="contact__icon">📍</div>
+                            <div>
+                                <h4>McAllen Office</h4>
+                                <p>McAllen, TX, Estados Unidos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contact-form">
+                    <div class="form__group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section class="social" id="redes">
+        <div class="container">
+            <h2 class="section__title">Síguenos en Nuestras Redes</h2>
+            <div class="social__grid">
+                <a href="#" class="social__card" target="_blank">
+                    <div class="social__icon">📘</div>
+                    <h3>Facebook</h3>
+                    <p>@voxoy</p>
+                </a>
+                <a href="#" class="social__card" target="_blank">
+                    <div class="social__icon">📷</div>
+                    <h3>Instagram</h3>
+                    <p>@voxoy</p>
+                </a>
+                <a href="#" class="social__card" target="_blank">
+                    <div class="social__icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>Contáctanos directo</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h3>VOXOY</h3>
+                    <p>Servicio confiable de PO Box para importaciones de McAllen a San Pedro Garza García, Monterrey.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Recepción de paquetes</a></li>
+                        <li><a href="#servicios">Consolidación</a></li>
+                        <li><a href="#servicios">Envío a domicilio</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="#proceso">Cómo funciona</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#ubicaciones">Ubicaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Redes Sociales</h4>
+                    <ul>
+                        <li><a href="#redes">Facebook</a></li>
+                        <li><a href="#redes">Instagram</a></li>
+                        <li><a href="#redes">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 VOXOY. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
